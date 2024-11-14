@@ -101,7 +101,7 @@ features_columns = ['age', 'height', 'weight', 'aids', 'cirrhosis', 'hepatic_fai
 X_train_select = X_train[features_columns]
 X_test_select = X_test[features_columns]
 
-# Trained model
+# Final trained model
 model = train_model(X_train_select, y_train)
 
 #Saving trained model to a Pickle file
